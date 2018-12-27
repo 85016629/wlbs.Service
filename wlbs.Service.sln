@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2016
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.Domain.Core", "wlbs.Service.Domain.Core\wlbs.Service.Domain.Core.csproj", "{8139D5E1-FB6D-42A2-B9E6-85D8030AE389}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.Infra.Sqlserver", "wlbs.Service.Infra.Sqlserver\wlbs.Service.Infra.Sqlserver.csproj", "{13971772-24F9-452A-87C1-5879B499CE45}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.Domain.AuthenticationCore", "wlbs.Service.Domain.AuthenticationCore\wlbs.Service.Domain.AuthenticationCore.csproj", "{8474E624-E963-4DD8-8479-AF5DE028A0C9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.Domain.Payment", "wlbs.Service.Domain.Payment\wlbs.Service.Domain.Payment.csproj", "{8EE0A659-2675-42DA-BDE7-E928ABE076BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.Utility", "wlbs.Service.Utility\wlbs.Service.Utility.csproj", "{234876D8-6DBA-49C5-ACA8-113F9ACD5F1B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.PaymentService", "wlbs.Service.PaymentService\wlbs.Service.PaymentService.csproj", "{385A99E1-A8F0-433E-B012-35555823C31B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{550C3FE7-10B0-435E-9BFC-64B7751C9427}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8139D5E1-FB6D-42A2-B9E6-85D8030AE389}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8139D5E1-FB6D-42A2-B9E6-85D8030AE389}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8139D5E1-FB6D-42A2-B9E6-85D8030AE389}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8139D5E1-FB6D-42A2-B9E6-85D8030AE389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13971772-24F9-452A-87C1-5879B499CE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13971772-24F9-452A-87C1-5879B499CE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13971772-24F9-452A-87C1-5879B499CE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13971772-24F9-452A-87C1-5879B499CE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8474E624-E963-4DD8-8479-AF5DE028A0C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8474E624-E963-4DD8-8479-AF5DE028A0C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8474E624-E963-4DD8-8479-AF5DE028A0C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8474E624-E963-4DD8-8479-AF5DE028A0C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EE0A659-2675-42DA-BDE7-E928ABE076BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EE0A659-2675-42DA-BDE7-E928ABE076BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EE0A659-2675-42DA-BDE7-E928ABE076BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EE0A659-2675-42DA-BDE7-E928ABE076BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{234876D8-6DBA-49C5-ACA8-113F9ACD5F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{234876D8-6DBA-49C5-ACA8-113F9ACD5F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{234876D8-6DBA-49C5-ACA8-113F9ACD5F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{234876D8-6DBA-49C5-ACA8-113F9ACD5F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{385A99E1-A8F0-433E-B012-35555823C31B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{385A99E1-A8F0-433E-B012-35555823C31B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{385A99E1-A8F0-433E-B012-35555823C31B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{385A99E1-A8F0-433E-B012-35555823C31B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{550C3FE7-10B0-435E-9BFC-64B7751C9427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{550C3FE7-10B0-435E-9BFC-64B7751C9427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{550C3FE7-10B0-435E-9BFC-64B7751C9427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{550C3FE7-10B0-435E-9BFC-64B7751C9427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
