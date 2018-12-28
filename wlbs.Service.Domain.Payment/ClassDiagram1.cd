@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" GroupingSetting="Alphabetical">
+  <Class Name="wlbs.Service.Domain.Payment.CommandHandlers.BankCardCommandHandler" BaseTypeListCollapsed="true">
+    <Position X="4" Y="4.25" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CommandHandlers\BankCardCommandHandler.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.Commands.PutBankCardIntoWalletCommand" BaseTypeListCollapsed="true">
+    <Position X="2.5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAWAAAAAAAAAAIAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Commands\PutBankCardIntoWalletCommand.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.Bank" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAABAAAAAAAAA=</HashCode>
+      <FileName>Models\BankCard\Bank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.BankCard" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAEAAAAAAAAAIAAAAAAAAAAABCAAAAAAAAAAEQ=</HashCode>
+      <FileName>Models\BankCard\BankCard.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.BaseWallet" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAEAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Wallet\BaseWallet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.InnterWallet" Collapsed="true">
+    <Position X="3.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAAAEAAACAAAAAAAAAAAACEAAAAAAAACAA=</HashCode>
+      <FileName>Models\Wallet\InnterWallet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.OuterWallet" Collapsed="true">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Wallet\OuterWallet.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.Account" Collapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.DealResult" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAAAAAAgAAAIAAAAAgAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Models\DealResult.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.RefundOrder" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Models\RefundOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.Settlement" Collapsed="true">
+    <Position X="13.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\Settlement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.TransactionFlow" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAkABAICiAQAAAAAAAAAAAAAAABAABIAAIAIAA=</HashCode>
+      <FileName>Models\TransactionFlow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.TranTypeHelper" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TranTypeHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="wlbs.Service.Domain.Payment.WithdrawOrder" Collapsed="true">
+    <Position X="12" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\WithdrawOrder.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="wlbs.Service.Domain.Payment.ITransactionFlowRepository" Collapsed="true">
+    <Position X="12" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Repositories\ITransactionFlowRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="wlbs.Service.Domain.Payment.IThirdPartyPaymentService" Collapsed="true">
+    <Position X="10.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAACAAAAgAAQQAAAAAAAAAAAAAARAAAAAAIAAAA=</HashCode>
+      <FileName>Services\IThirdPartyPaymentService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="wlbs.Service.Domain.Payment.Repositories.IBankCardRepository" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>Repositories\IBankCardRepository.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="wlbs.Service.Domain.Payment.BankCardStatus" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\BankCard\BankCard.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="wlbs.Service.Domain.Payment.ResultFlag" Collapsed="true">
+    <Position X="12" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Models\DealResult.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="wlbs.Service.Domain.Payment.PaymentMode" Collapsed="true">
+    <Position X="10.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAgAAAAAAAAAAAAQAAAAAAAACAA=</HashCode>
+      <FileName>Models\TransactionFlow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="wlbs.Service.Domain.Payment.TransStatus" Collapsed="true">
+    <Position X="13.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAgAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\TransactionFlow.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>

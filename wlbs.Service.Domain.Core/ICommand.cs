@@ -7,6 +7,6 @@ namespace wlbs.Service.Domain.Core
 {
     public interface ICommand : IEvent, IRequest<object>
     {
-
+        
     }
 }

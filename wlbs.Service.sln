@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wlbs.Service.PaymentService
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UnitTestProject1", "UnitTestProject1\UnitTestProject1.csproj", "{550C3FE7-10B0-435E-9BFC-64B7751C9427}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebApi", "WebApi", "{A684C18F-D181-4344-B9CB-42821F63FEF8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{66677E25-1C1A-4F30-A6AC-30FD24321736}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -54,6 +58,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{385A99E1-A8F0-433E-B012-35555823C31B} = {A684C18F-D181-4344-B9CB-42821F63FEF8}
+		{550C3FE7-10B0-435E-9BFC-64B7751C9427} = {66677E25-1C1A-4F30-A6AC-30FD24321736}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F3107643-97D5-4FAD-A614-C9C7427FE08D}

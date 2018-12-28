@@ -15,6 +15,9 @@ namespace wlbs.Service.Domain.Payment
 
     public enum ResultFlag : byte
     {
+        /// <summary>
+        /// 同意
+        /// </summary>
         Agree = 0,
         Refurse = 1
     }
